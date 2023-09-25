@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="
+        https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700
+        ">
+        
 </head>
 
 <body>
@@ -28,12 +32,12 @@
             <ol>
                 <li><a href="#home"><i class='bx bx-home'></i> Home</a></li>
                 <li><a href="#about"><i class='bx bxs-user'></i> About</a></li>
-                <li><a href="#services"><i class='bx bx-list-ul'></i> Services</a></li>
+                <li><a href="#services"><i class='bx bx-list-ul'></i> Skills</a></li>
                 <li><a href="#portfolio"><i class='bx bxs-briefcase-alt-2'></i> project</a></li>
                 <li><a href="#contact"><i class='bx bxs-contact'></i> Contact</a></li>
                 <div class="sci">
-                    <a href="https://github.com/kuldipparmar4124" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.instagram.com/kuldipsinh_parmar1010/" target="_blank"><i
+                    <a href="https://github.com/Maulikparmar86" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/maulik_parmar86/" target="_blank"><i
                             class='bx bxl-instagram'></i></a>
                     <a href="https://www.linkedin.com/in/parmar-mauliksinh-431349166" target="_blank"><i
                             class='bx bxl-linkedin'></i></a>
@@ -52,7 +56,7 @@
         <div class="content">
             <img class="tilt" src="img/DSC_1402_1.JPG" alt="">
             <h3> maulik <span> parmar</span> </h3>
-            <p> i am a <span class="typing-text"> Cloud Engineer</span> </p>
+            <p> I am a <span class="typing-text"> Cloud Engineer</span> </p>
             <a href="#about" class="btn2">about me</a>
         </div>
     </section>
@@ -64,18 +68,19 @@
             <div class="contentIn">
                 <h2>About</h2>
                 <h4>i am <span>Cloud Engineer</span></h4>
+                <p>Cloud Engineer with 1 year of experience in designing, implementing, and managing cloud infrastructure solutions. Proficient in deploying and optimizing cloud-based environments while ensuring scalability, security, and reliability.</p>
                 <p>Diligent and hardworking Cloud Engineer with Amazon Web Services(AWS). Expertise in testing, evaluating, and solving issues related to cloud infrastructure. Specialist in performing inspections and ensuring the continuous integration process of cloud resources.</p>
                 <div class="btn">
-                    <a href="img/Maulik+CV.1.pdf" target="_blank" class="cv">Download cv</a>
+                    <a href="img/Maulik Resume.pdf" target="_blank" class="cv">Download cv</a>
                 </div>
                 <div class="cardBx">
-                    <div class="card">
+                    <div class="cards">
                         <a href="tel:+ 91 9727868618"><i class="bx bxs-phone"></i>
                             <h4>phone</h4>
-                            <p>9727868618</p>
+                            <p>+91 9727868618</p>
                         </a>
                     </div>
-                    <div class="card">
+                    <div class="cards">
                         <a href="mailto:mauliksinhrajput8686@gmail.com"><i class="bx bxl-gmail"></i>
                             <h4>Email</h4>
                             <p>mauliksinhrajput8686@gmail.com</p>
@@ -84,52 +89,56 @@
                 </div>
             </div>
         </div>
-        <div class="contentBx">
+        <!-- <div class="contentBx">
             <div class="imgBx">
                 <img src="img/home-ing.JPG" alt="">
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- service start  -->
 
     <section class="services" id="services">
-        <h1> <span>MY </span>SERVICES</h1>
-        <div class="cardBx">
-            <div class="card">
-                <div>
-                    <span><i class='bx bxl-aws'></i></span>
-                    <h2>Cloud Engineer</h2>
-                  <ul>
-                    <li>Provided cloud support to clients and recommended AWS resources that suit their businesses.</li>
-                    <li>Collaborated with the software engineer to evaluate and implement solutions that automate the build and release process.</li>
-                    <li>Regularly reviewed deployment scripts and recommended improvements where necessary.</li>
-                  </ul>
-                </div>
+        <h1> <span>MY </span>SKILLS</h1>
+        <!-- <div class="cardBx"> -->
+            <div id="app" class="container">
+                <card data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+                    <h2 slot="header">Cloud Engineer</h2>
+                    <p slot="content">Provided cloud support to clients and recommended AWS resources that suit their businesses.</p>
+                    <p slot="content">Collaborated with the software engineer to evaluate and implement solutions that automate the build and release process.</p>
+                    <!-- <p slot="content">Regularly reviewed deployment scripts and recommended improvements where necessary.</p> -->
+                </card>
+                <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
+                  <h2 slot="header">Linux</h2>
+                  <p slot="content">Setup and debugged network configurations for RedHat servers and workstations.</p>
+                  <p slot="content">Maintained Apache servers on CentOS and programmed general task-completing scripts.</p>
+                  <p slot="content">Identified, documented and communicated potential system problems.</p>
+                 
+                </card>
+              <card data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+                <h2 slot="header">Shopify</h2>
+                <p slot="content">I specialize in crafting captivating Shopify websites that seamlessly blend design aesthetics with user-friendly functionality, helping businesses thrive in the e-commerce landscape.</p>
+              </card>
+              <card data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
+                <h2 slot="header">WordPress</h2>
+                <p slot="content">I'm a WordPress website designer dedicated to creating visually stunning and highly functional websites that empower businesses and individuals online.</p>
+                <p slot="content">I leverage my expertise in WordPress to deliver tailored websites that not only look great but also drive results and engagement for my clients.</p>
+              </card>
             </div>
-            <div class="card">
-                <div>
-                    <span><i class='bx bxs-cloud'></i></span>
-                    <h2>Cloud Administrator</h2>
-                    <ul>
-                        <li>works to maintain the infrastructure and functionality of a company's cloud structures.</li>
-                        <li>manage all hardware and software required for using cloud-based services.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <div>
-                    <span></span>
-                    <h2>Linux</h2>
-                    <ul>
-                        <li>Setup and debugged network configurations for RedHat servers and workstations.</li>
-                        <li>Maintained Apache servers on CentOS and programmed general task-completing scripts.</li>
-                        <li>Identified, documented and communicated potential system problems.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>.
+        <!-- </div> -->
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- portfolio section starts  -->
 
@@ -139,44 +148,16 @@
 
         <div class="box-container">
             <div class="box tilt">
-                <img src="img/sn.png" alt="">
+                <img src="img/ThinkGIS.png" alt="">
                 <div class="content">
-                    <a href="../Nature-Website/index.html" target="_blank" class="btn2">See More</a>
+                    <a href="https://thinkgis.in/" target="_blank" class="btn2">See More</a>
                 </div>
             </div>
 
             <div class="box tilt">
-                <img src="img/ec.png" alt="">
+                <img src="img/vrkitvision.com .png" alt="">
                 <div class="content">
-                    <a href="../Ecommerce-Website/index.html" target="_blank" class="btn2">See More</a>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img src="img/br.png" alt="">
-                <div class="content">
-                    <a href="../PSD/3.burger psd/index.html" target="_blank" class="btn2">See More</a>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img src="img/yoga.png" alt="">
-                <div class="content">
-                    <a href="../PSD/6.yoga psd/index.html" target="_blank" class="btn2">See More</a>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img src="" alt="">
-                <div class="content">
-                    <a href="" target="_blank" class="btn2">See More</a>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img src="" alt="">
-                <div class="content">
-                    <a href="" target="_blank" class="btn2">See More</a>
+                    <a href="https://vrkitvision.com/" target="_blank" class="btn2">See More</a>
                 </div>
             </div>
         </div>
@@ -215,6 +196,7 @@
 
     <!-- ------------------js start------------------ -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
 
     <!-- typed.js link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
@@ -226,8 +208,7 @@
     <!-- vanilla-tilt.js link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
-
-   
+    
 
     <script>
         VanillaTilt.init(document.querySelectorAll('.tilt'), {
